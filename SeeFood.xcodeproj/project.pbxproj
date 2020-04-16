@@ -13,6 +13,7 @@
 		54E6AEEC2448A4E600A3B031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E6AEEA2448A4E600A3B031 /* Main.storyboard */; };
 		54E6AEEE2448A4EC00A3B031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E6AEED2448A4EC00A3B031 /* Assets.xcassets */; };
 		54E6AEF12448A4EC00A3B031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E6AEEF2448A4EC00A3B031 /* LaunchScreen.storyboard */; };
+		54E6AEF92448A73A00A3B031 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 54E6AEF82448A73A00A3B031 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		54E6AEED2448A4EC00A3B031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54E6AEF02448A4EC00A3B031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54E6AEF22448A4EC00A3B031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E6AEF82448A73A00A3B031 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				54E6AEED2448A4EC00A3B031 /* Assets.xcassets */,
 				54E6AEEF2448A4EC00A3B031 /* LaunchScreen.storyboard */,
 				54E6AEF22448A4EC00A3B031 /* Info.plist */,
+				54E6AEF82448A73A00A3B031 /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54E6AEE92448A4E600A3B031 /* ViewController.swift in Sources */,
+				54E6AEF92448A73A00A3B031 /* Inceptionv3.mlmodel in Sources */,
 				54E6AEE52448A4E600A3B031 /* AppDelegate.swift in Sources */,
 				54E6AEE72448A4E600A3B031 /* SceneDelegate.swift in Sources */,
 			);
